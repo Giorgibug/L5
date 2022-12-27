@@ -1,0 +1,48 @@
+@import 
+	url("//cdn.web-fonts.ge/fonts/mg-bitneon-hollow/css/mg-bitneon-hollow.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Rubik+Vinyl&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.emu{
+	width: 400px;
+}
+.emus{
+	width: 80px;
+}
+nav, nav ul{
+	display: inline-block;
+}
+nav li{
+	width: 70px;
+	display: inline-block;
+	background-color: aqua;
+	border: 1px;
+}
+nav .enus{
+	vertical-align: middle;
+}
+.inline{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: orchid;
+	padding: 20px;
+}
+
+.inline p{
+	font-family: "MG BitNeon Hollow", sans-serif;
+	display: inline-block;
+	width: 200px;
+}
+.inline p, .inline img{
+	vertical-align: middle;
+}
